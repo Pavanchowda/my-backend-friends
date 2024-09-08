@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.card {
+	top: 20px !important;
+	width: 500px !important;
+	margin-left: 450px !important;
+}
+.pavan {
+	margin-left: : 450px !important;
+}
+
+
+
+/* Style the pagination container */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style the pagination links */
+.pagination a {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* Style the active pagination link */
+.pagination .page.current {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the previous and next pagination links */
+.pagination .previous_page, .pagination .next_page {
+  font-weight: bold;
+}
+
+
+
+
